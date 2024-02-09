@@ -1,0 +1,12 @@
+.mainborder {
+	border-radius:10px;
+	border:3px solid #fcca00;
+	padding:5px;
+	margin:10px 0;
+}
+
+.maintext {
+	font-size:125%;
+	text-align:center;
+	font-family:Century Gothic, Helvetica;
+}
