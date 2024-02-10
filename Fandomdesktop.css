@@ -10,3 +10,61 @@
 	text-align:center;
 	font-family:Century Gothic, Helvetica;
 }
+
+/**************************************
+* Add and align header nav background *
+* credits to elder scrolls wiki *
+* some parts are modified by RedHandsome128 *
+***************************************/
+.page {
+  margin-top:0;
+}
+
+.fandom-community-header {
+	/* Re-adding header image in local navigation as it was removed in the UCX (July 2021) */
+    background-image: url(https://static.wikia.nocookie.net/prison-life-roblox/images/0/0e/Community-header-background/revision/latest?cb=20200715142631); /* [[File:Community-header-background]] */
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: var(--theme-body-background-color);
+    background-size: contain;
+    height: 105px;
+    z-index: 201;
+    position: relative;
+    padding:20px 5px 5px 5px;
+    color:var(--theme-sticky-nav-text-color);
+}
+
+.fandom-community-header::before {
+    --theme-header-gradient-start: 200px;
+    --theme-header-gradient-end: 280px;
+    background: linear-gradient(to right,rgba(var(--theme-body-background-color--rgb),.5),rgba(var(--theme-body-background-color--rgb),.5)),linear-gradient(to left,transparent var(--theme-header-gradient-start),var(--theme-body-background-color) var(--theme-header-gradient-end));
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.fandom-community-header,
+.fandom-community-header a,
+.fandom-community-header .wds-icon {
+  color:var(--theme-body-text-color);
+}
+
+.fandom-community-header .page-counter,
+.fandom-community-header .wiki-tools .wds-icon {
+  color:var(--theme-sticky-nav-text-color);
+}
+
+.wiki-tools .wds-button.wds-is-secondary {
+	--wds-secondary-button-label-color: var(--theme-sticky-nav-text-color);
+	--wds-secondary-button-label-color--hover: var(--theme-sticky-nav-text-color--hover);
+}
+
+/****************************
+* end header nav background *
+*****************************/
+.page__main {
+	background-color: rgba(var(--theme-page-background-color--rgb), 0.95);
+}
