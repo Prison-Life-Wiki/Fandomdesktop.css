@@ -9,7 +9,7 @@ jobs:
     env:
       FETCH_URL: 'https://prison-life.fandom.com/wiki/MediaWiki:Fandomdesktop.css?action=raw'
     name: Fetch and commit source
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - run: echo '[INFO] Setting Git up...'
