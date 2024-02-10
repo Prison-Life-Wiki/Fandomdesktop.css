@@ -1,6 +1,3 @@
-** credits to wikitubia for fetch.yml code **
-** modified by RedHandsome128 **
-
 name: Fetch from source
 on:
   schedule:
