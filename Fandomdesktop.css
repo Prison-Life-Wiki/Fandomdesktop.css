@@ -68,3 +68,7 @@
 .page__main {
 	background-color: rgba(var(--theme-page-background-color--rgb), 0.95);
 }
+
+.main-container {
+	font-family: 'Source Sans 3', sans-serif;
+}
