@@ -72,3 +72,31 @@
 .main-container {
 	font-family: 'Source Sans 3', sans-serif;
 }
+
+.portable-infobox.pi-background {
+   background-color: #0B3759;
+}
+
+.portable-infobox .pi-font {
+   color: #ffffff;
+}
+
+.portable-infobox .pi-secondary-font {
+   color: #ffffff;
+}
+
+.portable-infobox .pi-title {
+   color: #ffffff;
+}
+
+.portable-infobox .pi-caption {
+   color: #ffffff;
+}
+
+.portable-infobox .wds-tabs__tab {
+  color: #ffffff;
+}
+
+.portable-infobox .pi-secondary-background {
+  background-color: #ef841c;
+}
