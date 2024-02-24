@@ -100,3 +100,8 @@
 .portable-infobox .pi-secondary-background {
   background-color: #081d2a;
 }
+
+.mw-collapsible-toggle-default:before,
+.mw-collapsible-toggle-default:after {
+    display: none;
+}
