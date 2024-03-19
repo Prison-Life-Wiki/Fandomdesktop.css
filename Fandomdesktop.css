@@ -101,7 +101,16 @@
   background-color: #081d2a;
 }
 
+.portable-infobox {
+	border-right: 9px solid #045289 !important;
+}
+
 .mw-collapsible-toggle-default:before,
 .mw-collapsible-toggle-default:after {
     display: none;
+}
+
+.WikiaRail .rail-module h2 {
+	text-transform: uppercase;
+	font-weight: bold !important;
 }
