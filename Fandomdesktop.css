@@ -74,7 +74,7 @@
 }
 
 .portable-infobox.pi-background {
-   background-color: #042b44;
+   background-color: #00304f;
 }
 
 .portable-infobox .pi-font {
@@ -98,12 +98,18 @@
 }
 
 .portable-infobox .pi-secondary-background {
-  background-color: #081d2a;
+  background-color: #091924;
 }
 
 .portable-infobox {
-	border-right: 9px solid #045289 !important;
+	border-right: 9px solid #0083d4 !important;
 }
+
+.portable-infobox .pi-title, 
+.pi-header {
+  text-align: right;
+}
+
 
 .mw-collapsible-toggle-default:before,
 .mw-collapsible-toggle-default:after {
