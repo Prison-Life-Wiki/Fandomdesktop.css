@@ -103,6 +103,7 @@
 
 .portable-infobox {
 	border-right: 9px solid #0083d4 !important;
+    border-radius: 0px 0px;
 }
 
 .portable-infobox .pi-title, 
